@@ -36,7 +36,7 @@ MCU:
     * 50m
     * 3W
   * PFET: [SQJ479EP-T1_GE3](https://www.digikey.com/en/products/detail/vishay-siliconix/SQJ479EP-T1-GE3/6708893)
-    * 80V Vsg
+    * 80V Vsd
     * 32A
     * 33mOhm
 
@@ -69,3 +69,12 @@ Op-Amps:
   * OK slew rate: 1.9V/us
   * 1MHz GWBP
   * OK max input offset voltage: 1.6mV
+
+Generic Transistors:
+
+* NPN: [MMBT2222A-TP](https://www.digikey.com/en/products/detail/micro-commercial-co/MMBT2222A-TP/717279)
+  * 600mA
+  * 40V Vce
+* NFET: [T2N7002AK,LM](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028)
+  * 200mA
+  * 60V Vds
