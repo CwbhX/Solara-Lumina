@@ -1,4 +1,4 @@
-23614395054422860
+23616113914462745
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6465,8 +6465,8 @@ ESP32-C6-WROOM-1-N8
 
 
 0
-49
-49
+37
+37
 ClementsFootprints
 ESP32-S2-MINI-1
 
@@ -6502,6 +6502,13 @@ PTS815_SJK_250_SMTR_LFS
 0
 4
 4
+ClementsFootprints
+PhotoDiode-0805
+
+
+0
+0
+0
 ClementsFootprints
 QFN40P250X250X50-17N
 
