@@ -1490,6 +1490,453 @@
 				)
 			)
 		)
+		(symbol "clement-components:Op Amps/MCP6009T-E/ST"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.032 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP6009T-E/ST"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6006-6R-6U-7-9-Data-Sheet-20006411B.pdf"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Op Amp 1 MHZ Gen Purpose Quad Op-Amp with EMI Filter General Purpose Amplifier 4 Circuit Rail-to-Rail 14-TSSOP"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MCP6009T-E/ST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Function" "General Purpose Op Amp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Channel Count" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Gain" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Bandwidth" "1 Mhz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Slew Rate" "1.9V/µs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Input Offset Voltage" "1.6 mV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Microchip Technology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributer PN" "150-MCP6009T-E/STCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "$0.39"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "General Purpose Amplifier 4 Circuit Rail-to-Rail 14-TSSOP MCP6009 1 MHZ Gen Purpose Quad Op-Amp with EMI Filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SMD{space}TSSOP-14{space}TSSOP{space}14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Op Amps/MCP6009T-E/ST_0_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 7.62 0) (xy -2.54 -5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Op Amps/MCP6009T-E/ST_1_1"
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Op Amps/MCP6009T-E/ST_2_1"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Op Amps/MCP6009T-E/ST_3_1"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Op Amps/MCP6009T-E/ST_4_1"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "clement-components:PMICs/LM5169FDDAR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2674,6 +3121,412 @@
 		)
 	)
 	(symbol
+		(lib_id "clement-components:Op Amps/MCP6009T-E/ST")
+		(at 232.41 80.01 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3019d229-4d50-42ea-a669-41e0555c47fb")
+		(property "Reference" "U4"
+			(at 234.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6009T-E/ST"
+			(at 234.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6006-6R-6U-7-9-Data-Sheet-20006411B.pdf"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Op Amp 1 MHZ Gen Purpose Quad Op-Amp with EMI Filter General Purpose Amplifier 4 Circuit Rail-to-Rail 14-TSSOP"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP6009T-E/ST"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "General Purpose Op Amp"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Channel Count" "4"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Gain" ""
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Bandwidth" "1 Mhz"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Slew Rate" "1.9V/µs"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Offset Voltage" "1.6 mV"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "14"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer PN" "150-MCP6009T-E/STCT-ND"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.39"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "0932aa26-bd86-4f81-ab88-be345a43bdbe")
+		)
+		(pin "10"
+			(uuid "2a0df9e7-6887-467a-b058-426cb937b593")
+		)
+		(pin "11"
+			(uuid "c2dde739-6a3d-4c4d-a9eb-ea7fcc9f19de")
+		)
+		(pin "1"
+			(uuid "22e002b7-ef77-46e3-92bc-4bacbb83f3fd")
+		)
+		(pin "4"
+			(uuid "c8847cc3-54fb-4301-9336-9cc6a2d392a7")
+		)
+		(pin "14"
+			(uuid "7e6c8a62-1f31-49a0-acd1-826a0b68feeb")
+		)
+		(pin "7"
+			(uuid "66df14aa-f1d4-4ad0-9a77-2cab315feea0")
+		)
+		(pin "9"
+			(uuid "7a86c15a-f63c-4cdd-83ba-f4e223277888")
+		)
+		(pin "5"
+			(uuid "3ea3daed-d876-4093-9d41-23a7aa342a14")
+		)
+		(pin "6"
+			(uuid "32be1288-f345-4527-b9cd-1aca2dbb667c")
+		)
+		(pin "13"
+			(uuid "ce2c0495-5073-4733-87cf-011f4ea06a0b")
+		)
+		(pin "3"
+			(uuid "04768ca5-5ee3-4c40-ac08-af2d9a857325")
+		)
+		(pin "12"
+			(uuid "dc340354-532b-49ff-9550-22194e9b54a9")
+		)
+		(pin "2"
+			(uuid "8902b9cc-bc2a-4f5c-afbf-95b5580fe5d7")
+		)
+		(instances
+			(project ""
+				(path "/a0f9aaac-7442-4f4c-b2b8-fa1b84e7018f"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "clement-components:Op Amps/MCP6009T-E/ST")
+		(at 201.93 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "708565ee-583c-48f3-ba15-3922b8d049a4")
+		(property "Reference" "U4"
+			(at 218.44 60.9914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6009T-E/ST"
+			(at 218.44 63.5314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6006-6R-6U-7-9-Data-Sheet-20006411B.pdf"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Op Amp 1 MHZ Gen Purpose Quad Op-Amp with EMI Filter General Purpose Amplifier 4 Circuit Rail-to-Rail 14-TSSOP"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP6009T-E/ST"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "General Purpose Op Amp"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Channel Count" "4"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Gain" ""
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Bandwidth" "1 Mhz"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Slew Rate" "1.9V/µs"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Offset Voltage" "1.6 mV"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "14"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer PN" "150-MCP6009T-E/STCT-ND"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.39"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "0932aa26-bd86-4f81-ab88-be345a43bdbe")
+		)
+		(pin "10"
+			(uuid "2a0df9e7-6887-467a-b058-426cb937b593")
+		)
+		(pin "11"
+			(uuid "c2dde739-6a3d-4c4d-a9eb-ea7fcc9f19de")
+		)
+		(pin "1"
+			(uuid "22e002b7-ef77-46e3-92bc-4bacbb83f3fd")
+		)
+		(pin "4"
+			(uuid "c8847cc3-54fb-4301-9336-9cc6a2d392a7")
+		)
+		(pin "14"
+			(uuid "7e6c8a62-1f31-49a0-acd1-826a0b68feeb")
+		)
+		(pin "7"
+			(uuid "66df14aa-f1d4-4ad0-9a77-2cab315feea0")
+		)
+		(pin "9"
+			(uuid "7a86c15a-f63c-4cdd-83ba-f4e223277888")
+		)
+		(pin "5"
+			(uuid "3ea3daed-d876-4093-9d41-23a7aa342a14")
+		)
+		(pin "6"
+			(uuid "32be1288-f345-4527-b9cd-1aca2dbb667c")
+		)
+		(pin "13"
+			(uuid "ce2c0495-5073-4733-87cf-011f4ea06a0b")
+		)
+		(pin "3"
+			(uuid "04768ca5-5ee3-4c40-ac08-af2d9a857325")
+		)
+		(pin "12"
+			(uuid "dc340354-532b-49ff-9550-22194e9b54a9")
+		)
+		(pin "2"
+			(uuid "8902b9cc-bc2a-4f5c-afbf-95b5580fe5d7")
+		)
+		(instances
+			(project ""
+				(path "/a0f9aaac-7442-4f4c-b2b8-fa1b84e7018f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Analog_ADC:ADS1015IDGS")
 		(at 160.02 77.47 0)
 		(unit 1)
@@ -2763,6 +3616,412 @@
 				(path "/a0f9aaac-7442-4f4c-b2b8-fa1b84e7018f"
 					(reference "U3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "clement-components:Op Amps/MCP6009T-E/ST")
+		(at 243.84 128.27 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c233708c-d130-4d9d-8de3-b6ebb4632f38")
+		(property "Reference" "U4"
+			(at 246.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6009T-E/ST"
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 243.84 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6006-6R-6U-7-9-Data-Sheet-20006411B.pdf"
+			(at 243.84 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Op Amp 1 MHZ Gen Purpose Quad Op-Amp with EMI Filter General Purpose Amplifier 4 Circuit Rail-to-Rail 14-TSSOP"
+			(at 243.84 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP6009T-E/ST"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "General Purpose Op Amp"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Channel Count" "4"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Gain" ""
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Bandwidth" "1 Mhz"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Slew Rate" "1.9V/µs"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Offset Voltage" "1.6 mV"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "14"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer PN" "150-MCP6009T-E/STCT-ND"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.39"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "0932aa26-bd86-4f81-ab88-be345a43bdbe")
+		)
+		(pin "10"
+			(uuid "2a0df9e7-6887-467a-b058-426cb937b593")
+		)
+		(pin "11"
+			(uuid "c2dde739-6a3d-4c4d-a9eb-ea7fcc9f19de")
+		)
+		(pin "1"
+			(uuid "22e002b7-ef77-46e3-92bc-4bacbb83f3fd")
+		)
+		(pin "4"
+			(uuid "c8847cc3-54fb-4301-9336-9cc6a2d392a7")
+		)
+		(pin "14"
+			(uuid "7e6c8a62-1f31-49a0-acd1-826a0b68feeb")
+		)
+		(pin "7"
+			(uuid "66df14aa-f1d4-4ad0-9a77-2cab315feea0")
+		)
+		(pin "9"
+			(uuid "7a86c15a-f63c-4cdd-83ba-f4e223277888")
+		)
+		(pin "5"
+			(uuid "3ea3daed-d876-4093-9d41-23a7aa342a14")
+		)
+		(pin "6"
+			(uuid "32be1288-f345-4527-b9cd-1aca2dbb667c")
+		)
+		(pin "13"
+			(uuid "ce2c0495-5073-4733-87cf-011f4ea06a0b")
+		)
+		(pin "3"
+			(uuid "04768ca5-5ee3-4c40-ac08-af2d9a857325")
+		)
+		(pin "12"
+			(uuid "dc340354-532b-49ff-9550-22194e9b54a9")
+		)
+		(pin "2"
+			(uuid "8902b9cc-bc2a-4f5c-afbf-95b5580fe5d7")
+		)
+		(instances
+			(project ""
+				(path "/a0f9aaac-7442-4f4c-b2b8-fa1b84e7018f"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "clement-components:Op Amps/MCP6009T-E/ST")
+		(at 213.36 100.33 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cff5ef36-f53e-42dc-83c2-aa11e90b546d")
+		(property "Reference" "U4"
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6009T-E/ST"
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6006-6R-6U-7-9-Data-Sheet-20006411B.pdf"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Op Amp 1 MHZ Gen Purpose Quad Op-Amp with EMI Filter General Purpose Amplifier 4 Circuit Rail-to-Rail 14-TSSOP"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP6009T-E/ST"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "General Purpose Op Amp"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Channel Count" "4"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Gain" ""
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Bandwidth" "1 Mhz"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Slew Rate" "1.9V/µs"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Offset Voltage" "1.6 mV"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "14"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer PN" "150-MCP6009T-E/STCT-ND"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.39"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "0932aa26-bd86-4f81-ab88-be345a43bdbe")
+		)
+		(pin "10"
+			(uuid "2a0df9e7-6887-467a-b058-426cb937b593")
+		)
+		(pin "11"
+			(uuid "c2dde739-6a3d-4c4d-a9eb-ea7fcc9f19de")
+		)
+		(pin "1"
+			(uuid "22e002b7-ef77-46e3-92bc-4bacbb83f3fd")
+		)
+		(pin "4"
+			(uuid "c8847cc3-54fb-4301-9336-9cc6a2d392a7")
+		)
+		(pin "14"
+			(uuid "7e6c8a62-1f31-49a0-acd1-826a0b68feeb")
+		)
+		(pin "7"
+			(uuid "66df14aa-f1d4-4ad0-9a77-2cab315feea0")
+		)
+		(pin "9"
+			(uuid "7a86c15a-f63c-4cdd-83ba-f4e223277888")
+		)
+		(pin "5"
+			(uuid "3ea3daed-d876-4093-9d41-23a7aa342a14")
+		)
+		(pin "6"
+			(uuid "32be1288-f345-4527-b9cd-1aca2dbb667c")
+		)
+		(pin "13"
+			(uuid "ce2c0495-5073-4733-87cf-011f4ea06a0b")
+		)
+		(pin "3"
+			(uuid "04768ca5-5ee3-4c40-ac08-af2d9a857325")
+		)
+		(pin "12"
+			(uuid "dc340354-532b-49ff-9550-22194e9b54a9")
+		)
+		(pin "2"
+			(uuid "8902b9cc-bc2a-4f5c-afbf-95b5580fe5d7")
+		)
+		(instances
+			(project ""
+				(path "/a0f9aaac-7442-4f4c-b2b8-fa1b84e7018f"
+					(reference "U4")
+					(unit 3)
 				)
 			)
 		)
