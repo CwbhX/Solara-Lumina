@@ -1,4 +1,4 @@
-23616113914837900
+23619552104346629
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6489,6 +6489,13 @@ LED_1212_3030METRIC_MP-3030
 2
 2
 ClementsFootprints
+Molex_1726480102
+
+1726480102 
+0
+2
+2
+ClementsFootprints
 P0915N-EC15BR10K
 10k Ohm 1 Gang Linear Panel Mount Potentiometer None 1.0 Kierros Conductive Plastic 0.05W, 1/20W PC Pins, Board Locks
 
@@ -6523,6 +6530,13 @@ SOIC-8_3.9x4.9mm_P1.27mm
 0
 8
 8
+ClementsFootprints
+USB-C-2137160001
+
+2137160001 
+0
+20
+20
 ClementsFootprints
 XT60PW-M20
 

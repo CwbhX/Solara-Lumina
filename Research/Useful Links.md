@@ -70,27 +70,30 @@ Photodiode:
 
 Op-Amps:
 
-* [MCP6009T-E/SL](https://www.digikey.com/en/products/detail/microchip-technology/MCP6009T-E-SL/12807435)
+* [MCP6009T-E/SL](https://www.digikey.com/en/products/detail/microchip-technology/MCP6009T-E-SL/12807435) 
   * Cheap as fuck: $0.31 at QTY 25
   * OK slew rate: 1.9V/us
   * 1MHz GWBP
   * OK max input offset voltage: 1.6mV
+* [MCP6009T-E/ST](https://www.digikey.com/en/products/detail/microchip-technology/MCP6009T-E-ST/12807237) ✅
+  * Still super cheap
+  * Smaller package
 
 Generic Transistors:
 
-* NPN: [MMBT2222A-TP](https://www.digikey.com/en/products/detail/micro-commercial-co/MMBT2222A-TP/717279)
+* NPN: [MMBT2222A-TP](https://www.digikey.com/en/products/detail/micro-commercial-co/MMBT2222A-TP/717279) ✅
   * 600mA
   * 40V Vce
-* NFET: [T2N7002AK,LM](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028)
+* NFET: [T2N7002AK,LM](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028) ✅
   * 200mA
   * 60V Vds
 
 Connectors:
 
-* USB-C 2.0 Connector
-  * [Molex 2137160001](https://www.digikey.com/en/products/detail/molex/2137160001/13662576)
+* USB-C 2.0 Connector 
+  * [Molex 2137160001](https://www.digikey.com/en/products/detail/molex/2137160001/13662576) ✅
 * LED Connector
-  * [Molex 1726480102](https://www.digikey.com/en/products/detail/molex/1726480102/9352770?s=N4IgTCBcDaIIwHYwDYAsAOADHTEC6AvkA)
+  * [Molex 1726480102](https://www.digikey.com/en/products/detail/molex/1726480102/9352770?s=N4IgTCBcDaIIwHYwDYAsAOADHTEC6AvkA) ✅
     * Mating Connector: [Molex 0039014021](https://www.digikey.com/en/products/detail/molex/0039014021/6822884)
     * Red 3" pre-crimped wire: [0039000038-03-R0](https://www.digikey.com/en/products/detail/molex/0039000038-03-R0/5985924)
     * Black 8" pre-crimped wire: [0039000038-08-B2](https://www.digikey.com/en/products/detail/molex/0039000038-08-B2/5986065)
